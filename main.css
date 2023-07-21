@@ -82,6 +82,10 @@ nav * {
     text-decoration: none;
 }
 
+.nav-menu--hidden {
+    display: none;
+}
+
 footer,
 footer * {
     background-color: gray;
