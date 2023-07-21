@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Ysabeau+Infant);
+
+* {
+    font-family: 'Ysabeau Infant', sans-serif;
+    background-color: whitesmoke;
+}
+
+body {
+    margin: unset;
+}
+
+header,
+header * {
+    background-color: gray;
+}
+
+.info-header {
+    /* display: flex; */
+}
+
+.info-header-contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+
+.info-header-social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-icon {
+    padding-bottom: 0.5em;
+}
+
+footer,
+footer * {
+    background-color: gray;
+}
+
+footer {
+    color: darkgray;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer>p {
+    font-size: medium;
+}
+
+footer a {
+    color: darkgray;
+}
