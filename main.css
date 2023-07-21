@@ -15,7 +15,7 @@ header * {
 }
 
 .info-header {
-    /* display: flex; */
+    /* color: black; */
 }
 
 .info-header-contact {
@@ -31,6 +31,55 @@ header * {
 
 .social-icon {
     padding-bottom: 0.5em;
+}
+
+.info-header a {
+    color: black;
+}
+
+.hamburger {
+    position: absolute;
+    width: 2.5em;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+nav {
+    position: relative;
+    left: 4.5em;
+    top: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 18em;
+    border: 1px solid black;
+    box-shadow: 0.1em 0.1em 0.1em 0.2em darkgray;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    margin: 0.1em 0.2em;
+    border-bottom: 1px solid lightgray;
+}
+
+.nav-menu a:last-child {
+    border-bottom: unset;
+}
+
+.nav-menu img {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.5em;
+}
+
+nav span {
+    font-size: 0.75em;
+    line-height: 2.5em;
+}
+
+nav * {
+    text-decoration: none;
 }
 
 footer,
