@@ -1,0 +1,36 @@
+.gallery-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.gallery {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    position: relative;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+
+.image-scroll {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    justify-self: center;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.image-scroll img {
+    width: 2em;
+    margin: 0 0.5em;
+}
