@@ -6,17 +6,18 @@
 }
 
 body {
+    position: relative;
     margin: unset;
     background-color: whitesmoke;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 header,
 header * {
     background-color: gray;
-}
-
-.info-header {
-    /* color: black; */
 }
 
 .info-header-contact {
@@ -31,7 +32,11 @@ header * {
 }
 
 .social-icon {
-    padding-bottom: 0.5em;
+    /* padding-bottom: 0.5em; */
+}
+
+.social-icon>img {
+    width: 2em;
 }
 
 .info-header a {
@@ -46,7 +51,6 @@ header * {
 }
 
 .hamburger {
-    /* position: absolute; */
     width: 2.5em;
     margin-top: 1em;
     margin-left: 1em;
@@ -103,10 +107,9 @@ footer * {
 
 footer {
     color: darkgray;
-    position: absolute;
-    bottom: 0;
     text-align: center;
     width: 100%;
+    margin-top: auto;
 }
 
 .site-author {
@@ -138,4 +141,70 @@ footer {
 
 .artists-credits>*:last-child {
     border-right: unset;
+}
+
+@media screen and (min-width: 768px) {
+    .social-icon>img {
+        width: 2.5em;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .info-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .info-header-contact>p {
+        padding-right: 1em;
+        border-right: 1px solid darkgray;
+    }
+
+    .info-header-contact>a {
+        padding-left: 1em;
+    }
+
+    .info-header-social img {
+        margin: 1em;
+    }
+
+    .social-icon>img {
+        width: 2em;
+    }
+
+    header a,
+    main a {
+        text-decoration: none;
+    }
+
+    .nav-menu--hidden {
+        display: unset;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .nav-menu {
+        background-color: gray;
+        box-shadow: unset;
+        border: unset;
+        position: unset;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .nav-menu a {
+        display: grid;
+        grid-template-rows: 1.5em 1em;
+        border: unset;
+        margin: 0.2em 0.5em;
+    }
+
+    .nav-menu img {
+        margin: 0 auto;
+    }
 }
