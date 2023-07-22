@@ -27,10 +27,24 @@
     width: 100%;
     justify-self: center;
     z-index: 1;
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 .image-scroll img {
     width: 2em;
     margin: 0 0.5em;
+}
+
+main span {
+    text-align: center;
+}
+
+.intro {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+}
+
+.sub-intro {
+    font-size: 1.5em;
+    margin-top: 0;
 }

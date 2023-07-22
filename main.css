@@ -103,16 +103,39 @@ footer * {
 
 footer {
     color: darkgray;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     text-align: center;
     width: 100%;
 }
 
-footer>p {
-    font-size: medium;
+.site-author {
+    font-size: 1em;
+    margin: 0.5em 0;
 }
 
-footer a {
+.artists-credits {
     color: darkgray;
+    font-size: 0.8em;
+    display: grid;
+    grid-template-columns: repeat(7, 16em);
+    overflow-x: scroll;
+}
+
+.artists-credits::-webkit-scrollbar {
+    display: none;
+}
+
+.artists-credits>div,
+.artists-credits a {
+    color: darkgray;
+}
+
+.artists-credits>* {
+    border-right: 1px solid darkgray;
+    margin: 0.2em;
+}
+
+.artists-credits>*:last-child {
+    border-right: unset;
 }
