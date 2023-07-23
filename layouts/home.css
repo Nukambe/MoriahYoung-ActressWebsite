@@ -48,3 +48,30 @@ main span {
     font-size: 1.5em;
     margin-top: 0;
 }
+
+@media screen and (min-width: 1000px) {
+
+    .gallery-wrap {
+        margin-top: 8em;
+    }
+
+    .gallery {
+        height: 20em;
+        width: 80%;
+        margin: auto;
+        column-gap: 1em;
+    }
+
+    .image-scroll {
+        margin: auto;
+        opacity: 1;
+    }
+
+    .image-scroll img {
+        margin: 0 4em;
+    }
+
+    .gallery img {
+        width: 33%;
+    }
+}
