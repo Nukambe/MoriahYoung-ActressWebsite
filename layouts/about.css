@@ -1,0 +1,38 @@
+.about-content {
+    width: 90%;
+    margin: auto;
+}
+
+.about-content h2 {
+    text-align: right;
+}
+
+.about-content p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+@media screen and (min-width: 768px) {
+    .about-content {
+        width: 80%;
+    }
+
+    .about-content p {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .about-content {
+        width: 80%;
+        margin: 10em auto 0;
+    }
+
+    .about-content h2 {
+        text-align: left;
+    }
+
+    .about-content p {
+        font-size: 1.5em;
+    }
+}

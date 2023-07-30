@@ -1,0 +1,42 @@
+.contact-content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact-content h2 {
+    text-align: right;
+}
+
+.contact-info {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-info>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .contact-info {
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .contact-content {
+        width: 80%;
+        margin: 10em auto 0;
+    }
+
+    .contact-content h2 {
+        text-align: left;
+    }
+
+    .contact-info {
+        width: 50%;
+        margin: 0 auto;
+    }
+}

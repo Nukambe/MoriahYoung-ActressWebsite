@@ -2,7 +2,12 @@
 
 * {
     font-family: 'Ysabeau Infant', sans-serif;
-    /* background-color: whitesmoke; */
+    color: #89023E;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
 }
 
 body {

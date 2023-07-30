@@ -1,0 +1,27 @@
+.portfolio-content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.portfolio-content h2 {
+    text-align: right;
+}
+
+li {
+    margin: 1.5em 0;
+}
+
+@media screen and (min-width: 1000px) {
+    .portfolio-content {
+        width: 80%;
+        margin: 10em auto 0;
+    }
+
+    .portfolio-content h2 {
+        text-align: left;
+    }
+
+    h3 {
+        text-align: right;
+    }
+}
